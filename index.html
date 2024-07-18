@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body id="users-container">
+  <main>
+    <article class="card">
+      <div class="card__item card__item--result">
+        <h1 class="card__title">Your Result</h1>
+        <p class="card__score-wrap"><span class="card__score">76</span> <span class="card__score-total">of 100</span></p>
+        <h3 class="card__remark">Great</h3>
+        <p class="card__description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="card__item card__item--summary">
+        <h2 class="card__title"></h2>
+        <ul class="card__list">
+          <li class="list__item list__item--reaction" id="result-1">
+            <span class="list__item-media">
+              <img src="/assets/images/icon-reaction.svg" class="list__item-icon" width="20" heigh="20" alt="Reaction icon">
+              <span class="list__item-category">Reaction</span>
+            </span>
+            <p class="list__item-rating">
+              <span class="list__item-score">0</span>
+              <span class="list__item-total"> / 100</span>
+            </p>
+          </li>
+          <li class="list__item list__item--memory" id="result-2">
+            <span class="list__item-media">
+              <img src="/assets/images/icon-memory.svg" class="list__item-icon" width="20" heigh="20" alt="Memory icon">
+              <span class="list__item-category">Memory</span>
+            </span>
+            <p class="list__item-rating">
+              <span class="list__item-score">0</span>
+              <span class="list__item-total"> / 100</span>
+            </p>
+          </li>
+          <li class="list__item list__item--verbal" id="result-3">
+            <span class="list__item-media">
+              <img src="/assets/images/icon-verbal.svg" class="list__item-icon" width="20" heigh="20" alt="Verbal Icon">
+              <span class="list__item-category">Verbal</span>
+            </span>
+            <p class="list__item-rating">
+              <span class="list__item-score">0</span>
+              <span class="list__item-total"> / 100</span>
+            </p>
+          </li>
+          <li class="list__item list__item--visual" id="result-4">
+            <span class="list__item-media">
+              <img src="/assets/images/icon-visual.svg" class="list__item-icon" width="20" heigh="20" alt="Visual Icon">
+              <span class="list__item-category">Visual</span>
+            </span>
+            <p class="list__item-rating">
+              <span class="list__item-score">0</span>
+              <span class="list__item-total"> / 100</span>
+            </p>
+          </li>
+        </ul>
+        <a href="#" target="_blank" class="card__button">Continue</a>
+      </div></p>
+    </article>
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
